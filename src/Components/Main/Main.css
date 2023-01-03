@@ -1,0 +1,56 @@
+.Mcointainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cointainerP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    min-height: 25rem;
+    max-height: 25rem;
+}
+.upper{
+    display: flex;
+    width: 71rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 2rem;
+ 
+}
+
+.imgP{
+    width: 10rem;
+    min-height: 14rem;
+    max-height: 14rem;
+ 
+}
+.title{
+    width: 12rem;
+    height: 6vh;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.price{
+    width: 12rem;
+    height: 3vh; 
+   text-align: center;
+}
+.btn{
+    padding: .5rem;
+    cursor: pointer;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.178);
+    background: hsla(186, 33%, 94%, 1);
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+}
