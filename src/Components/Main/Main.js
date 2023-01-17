@@ -18,6 +18,7 @@ useEffect(()=>{
   const {data, status}=useSelector((state)=>state.Product);
 
   const onCartHandler=(product)=>{
+
     dispatch(add(product));
   }
 
@@ -42,7 +43,7 @@ useEffect(()=>{
           <img src={product.image} className="imgP" alt="product" />
           <div className="title">{product.title}</div>
           <div className="price">price: {product.price} $</div>
-          <button onClick={()=>{onCartHandler(product)}} className='btn'>Add To Cart</button>
+          <button onClick={()=>{onCartHandler({...product,count:1})}} className='btn'>Add To Cart</button>
         </div>
       ))}
       </div>
