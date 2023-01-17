@@ -47,6 +47,7 @@ const onCountLess=(pro)=>{
           </div>
         ))}
       </div>
+      <button className="btn">Place Order</button>
     </div>
   );
 }
